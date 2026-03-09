@@ -1,0 +1,46 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.9.0",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.7",
+<<<<<<< HEAD
+    "cors": "^2.8.6",
+    "datauri": "^4.1.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.4",
+    "multer": "^2.1.1",
+    "parser": "^0.1.4",
+    "stripe": "^20.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+=======
+    "datauri": "^4.1.0",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.0",
+    "multer": "^2.0.2",
+    "parser": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+>>>>>>> dea4ff89c2240ef01d9cd26df5a42a1bdeffb7ab
+  }
+}
