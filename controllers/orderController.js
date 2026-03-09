@@ -3,58 +3,6 @@ import orderModel from "../models/orderModel.js";
 import productModel from "../models/productModel.js";
 import { stripe } from "../server.js";
 
-
-// // CREATE ORDER
-// export const createOrderController = async (req, res) => {
-//   try {
-//     const { products, amount } = req.body;
-
-//     const order = new orderModel({
-//       products,
-//       amount,
-//       buyer: req.user._id,
-//     });
-
-//     await order.save();
-
-//     res.status(201).send({
-//       success: true,
-//       message: "Order Placed Successfully",
-//       order,
-//     });
-//   } catch (error) {
-//     console.log(error);
-//     res.status(500).send({
-//       success: false,
-//       message: "Error while creating order",
-//       error,
-//     });
-//   }
-// };
-
-// // GET USER ORDERS
-// export const getUserOrdersController = async (req, res) => {
-//   try {
-//     const orders = await orderModel
-//       .find({ buyer: req.user._id })
-//       .populate("products");
-
-//     res.status(200).send({
-//       success: true,
-//       orders,
-//     });
-//   } catch (error) {
-//     console.log(error);
-//     res.status(500).send({
-//       success: false,
-//       message: "Error fetching orders",
-//     });
-//   }
-// };
-
-
-
-
 // CREATE ORDERS------------------------------
 
 export const createOrderController = async (req, res) => {
